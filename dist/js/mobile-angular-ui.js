@@ -1542,7 +1542,7 @@ if (typeof define == 'function' && typeof define.amd == 'object' && define.amd) 
 	// Expose overthrow API
 	w.overthrow.support = nativeOverflow ? "native" : "none";
 		
-})( this );
+})( arguments[1] );
 
 /*! Overthrow. An overflow:auto polyfill for responsive design. (c) 2012: Scott Jehl, Filament Group, Inc. http://filamentgroup.github.com/Overthrow/license.txt */
 (function( w, undefined ){
@@ -1550,7 +1550,7 @@ if (typeof define == 'function' && typeof define.amd == 'object' && define.amd) 
 	// Auto-init
 	w.overthrow.set();
 
-}( this ));
+}( arguments[1] ));
 /*! Overthrow. An overflow:auto polyfill for responsive design. (c) 2012: Scott Jehl, Filament Group, Inc. http://filamentgroup.github.com/Overthrow/license.txt */
 (function( w, o, undefined ){
 
